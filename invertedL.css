@@ -1,0 +1,52 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'KouzanBrushFontOTF', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
+  font-size: 16px;
+}
+
+.controlSection{
+  height: 60px;
+  width: 100%;
+  text-align: left;
+  display:inline-flex;
+  background-color: #fff;
+  color: #000;
+}
+
+.inputSection{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.inboxSection{
+  width: 95%;
+  height: 50px;;
+}
+
+.buttonsSection{
+  text-align: right;
+  vertical-align: middle;
+}
+
+main{
+  min-height: 100vh;
+  display: flex;
+  margin-top: 0px;
+}
+
+.candidateSection{
+  width: 100px;
+  text-align: left;
+  background-color: #fff;
+  color: #000;
+}
+
+.contentSection{
+  flex: 1;
+  background-color: #fff;
+  text-align: left;
+  margin-left: 5px;
+}
+
