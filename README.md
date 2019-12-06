@@ -1,5 +1,6 @@
 # HentaiGanaTransliterator
-This web app transliterates Roma-ji to Hentai-Gana (in Unicode).
+This web-app transliterates Roma-ji (in Kunrei-style) to Hentai-Gana (in Unicode).
 
-https://mmurak.github.io/HentaiGanaTransliterator/
+https://mmurak.github.io/HentaiGanaTransliterator/index.html
 
+(this program uses clipboard.min.js)
