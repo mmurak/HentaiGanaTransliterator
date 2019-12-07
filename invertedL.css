@@ -1,12 +1,14 @@
 @font-face {
-font-family: "KouzanAndHentai";
-  src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/UniHentaiKana-Regular.woff2) format("woff2"), url(https://mmurak.github.io/HentaiGanaTransliterator/font/KouzanMouhituFontOTF) format("woff2");
+font-family: "KouzanBrushFontOTF";
+  src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/KouzanMouhituFontOTF) format("woff2");
+font-family: "UniHentaiKana";
+  src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/UniHentaiKana-Regular.woff2) format("woff2");
 }
 
 body{
   display: flex;
   flex-direction: column;
-  font-family: 'KouzanAndHentai', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
+  font-family: 'UniHentaiKana', 'KouzanBrushFontOTF', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
   font-size: 16px;
 }
 
