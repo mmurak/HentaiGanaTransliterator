@@ -1,7 +1,12 @@
+@font-face {
+font-family: "KouzanSousho";
+  src: url(font/KouzanSousho.woff2) format("woff2");
+}
+
 body{
   display: flex;
   flex-direction: column;
-  font-family: 'KouzanBrushFontSousyoOTF', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
+  font-family: 'KouzanSousho', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
   font-size: 16px;
 }
 
