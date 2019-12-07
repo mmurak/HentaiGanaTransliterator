@@ -1,9 +1,11 @@
 body{
   display: flex;
   flex-direction: column;
-  font-family: 'KouzanBrushFontOTF', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
+  font-family: 'KouzanBrushFontSousyoOTF', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
   font-size: 16px;
 }
+
+span.std {font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";}
 
 .controlSection{
   height: 80px;
@@ -43,7 +45,7 @@ main{
   text-align: left;
   background-color: #fff;
   color: #000;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .contentSection{
