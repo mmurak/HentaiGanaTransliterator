@@ -1,12 +1,12 @@
 @font-face {
-font-family: "KouzanSousho";
-  src: url(font/KouzanSousho.woff2) format("woff2");
+font-family: "KouzanAndHentai";
+  src: url(font/KouzanSousho.woff2) format("woff2"), url(font/UniHentaiKana-Regular.woff2) format("woff2");
 }
 
 body{
   display: flex;
   flex-direction: column;
-  font-family: 'KouzanSousho', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
+  font-family: 'KouzanAndHentai', 'Helvetica Neue', 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
   font-size: 16px;
 }
 
