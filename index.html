@@ -64,6 +64,7 @@
           }
           output = output.replace(re, spanned);
         }
+        output = output.replace(/ /g, "　");
         kanaOut(output);
       }
 // kanaOut()
@@ -94,6 +95,7 @@
     <main>
     <div id="candidatesArea" class="candidateSection"></div>
     <div id="contentsArea" class="contentSection"></div>
+    <div id="FillerArea" class="fillerSection"></div>
     </main>
   </body>
 </html>
