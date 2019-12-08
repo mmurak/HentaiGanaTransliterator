@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <title>Unicode変体仮名入力-説明</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <link rel="shortcut icon" href="favicon.ico?v=2">
+    <link rel="stylesheet" href="help.css">
+  </head>
+  <body>
+<h2>これは何？</h2>
+<p>
+Unicode 10.0 で規格化された変体仮名を入力するための支援アプリです。 すべてローカル環境上で動作するウェブアプリです。 Chrome で動作確認しています。
+</p>
+<h2>使い方</h2>
+<p>
+　入力エリアに半角英数字で訓令式のローマ字を記入すると、左側の候補ペインにUnicode 10.0で定義された変体仮名の一覧が表示されるので、その番号を続けて入力すると、右側のペインに縦書きで変体仮名交じり文を記述していけます。 なお、全角文字や「ローマ字+数字」のフォーマットに即していない入力は、そのまま右側のペインに表示されます。 このため「生so5ba9」と入力すると「<span class="kouzan">生</span><span class="hentai">𛁛𛂦゙</span>」と縦書きで表示されます。
+</p>
+<p>
+　［複写領域へ］ボタンを押下すると、それまでに投入した文字列のコードがクリップボードにコピーされます。 ただし、そのコードをペーストした環境に変体仮名フォントが登録されていなければ、正しく表示されません。 再利用の際には該当環境に変体仮名フォントを登録しておいて下さい。
+</p>
+<p>
+　［消去］ボタンを押下すると、それまでに投入した文字列がクリアされます。
+</p>
+<p>
+　訓令式ローマ字一覧
+</p>
+<p>
+<div align="center">清音</div>
+<table border="1" align="center">
+    <tr><td>あ<br/>a</td><td>い<br/>i</td><td>う<br/>u</td><td>え<br/>e</td><td>お<br/>o</td></tr>
+    <tr><td>か<br/>ka</td><td>き<br/>ki</td><td>く<br/>ku</td><td>け<br/>ke</td><td>こ<br/>ko</td></tr>
+    <tr><td>さ<br/>sa</td><td>し<br/>si</td><td>す<br/>su</td><td>せ<br/>se</td><td>そ<br/>so</td></tr>
+    <tr><td>た<br/>ta</td><td>ち<br/>ti</td><td>つ<br/>tu</td><td>て<br/>te</td><td>と<br/>to</td></tr>
+    <tr><td>な<br/>na</td><td>に<br/>ni</td><td>ぬ<br/>nu</td><td>ね<br/>ne</td><td>の<br/>no</td></tr>
+    <tr><td>は<br/>ha</td><td>ひ<br/>hi</td><td>ふ<br/>hu</td><td>へ<br/>he</td><td>ほ<br/>ho</td></tr>
+    <tr><td>ま<br/>ma</td><td>み<br/>mi</td><td>む<br/>mu</td><td>め<br/>me</td><td>も<br/>mo</td></tr>
+    <tr><td>や<br/>ya</td><td></td><td>ゆ<br/>yu</td><td></td><td>よ<br/>yo</td></tr>
+    <tr><td>ら<br/>ra</td><td>り<br/>ri</td><td>る<br/>ru</td><td>れ<br/>re</td><td>ろ<br/>ro</td></tr>
+    <tr><td>わ<br/>wa</td><td>ゐ<br/>wi</td><td></td><td>ゑ<br/>we</td><td>を<br/>wo</td></tr>
+  </table>
+</p>
+<p>
+<div align="center">濁音</div>
+<table border="1" align="center">
+    <tr><td>が<br/>ga</td><td>ぎ<br/>gi</td><td>ぐ<br/>gu</td><td>げ<br/>ge</td><td>ご<br/>go</td></tr>
+    <tr><td>ざ<br/>za</td><td>じ<br/>zi</td><td>ず<br/>zu</td><td>ぜ<br/>ze</td><td>ぞ<br/>zo</td></tr>
+    <tr><td>だ<br/>da</td><td>ぢ<br/>di</td><td>づ<br/>du</td><td>で<br/>de</td><td>ど<br/>do</td></tr>
+    <tr><td>ば<br/>ba</td><td>び<br/>bi</td><td>ぶ<br/>bu</td><td>べ<br/>be</td><td>ぼ<br/>bo</td></tr>
+  </table>
+</p>
+<p>
+<div align="center">半濁音</div>
+<table border="1" align="center">
+    <tr><td>ぱ<br/>pa</td><td>ぴ<br/>pi</td><td>ぷ<br/>pu</td><td>ぺ<br/>pe</td><td>ぽ<br/>po</td></tr>
+  </table>
+</p>
+
+  <h2>フォント等</h2>
+
+<ul>
+<li>
+変体仮名フォントは以下のURLからインストールできます（作成して下さった方々に感謝します）。<br/>
+<a href="https://wakufactory.jp/densho/font/hentai/">https://wakufactory.jp/densho/font/hentai/</a>
+</li>
+<li>
+このウェブアプリでは変体仮名以外の文字を青柳衡山先生の毛筆フォントで表示するようにしています（武蔵システム様、青柳衡山先生、ありがとうございます）。<br/>
+<a href="https://opentype.jp/aoyagikouzanfontt.htm">https://opentype.jp/aoyagikouzanfontt.htm</a>
+</li>
+<li>
+クリップボードへのコピー処理は <a href="https://clipboardjs.com/">clipboard-min.js</a> を使用しています（Thanks!）。
+</li>
+</ul>
+
+
+</body>
+</html>
