@@ -1,6 +1,8 @@
 @font-face {
 font-family: "UniHentaiKana";
   src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/UniHentaiKana-Regular.woff2) format("woff2");
+}
+@font-face {
 font-family: "KouzanBrushFontOTF";
   src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/KouzanBrushFontOTF.woff2) format("woff2");
 }
