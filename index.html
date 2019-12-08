@@ -41,6 +41,7 @@
           return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
         };
         var output = document.getElementById("textbox").value;
+        output = output.replace(/ /g, "　");
         carretP = document.getElementById("textbox").selectionStart;
         twoLetter = ('--' + output).substr(carretP, 2);
         twoLetter = twoLetter.replace('-', '').toUpperCase();
@@ -64,7 +65,6 @@
           }
           output = output.replace(re, spanned);
         }
-        output = output.replace(/ /g, "　");
         kanaOut(output);
       }
 // kanaOut()
