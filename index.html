@@ -57,7 +57,12 @@
         }
         for (t in xsIn) {
           var re = new RegExp(RegExp.escape(xsIn[t]), "gi");
-          output = output.replace(re, ipaOut[t]);
+          spanned = ipaOut[t];      // 縦書きのspan class="cmb"対応
+          ch0 = xsIn[t].charAt(0);
+          if (ch0 == 'G' || ch0 == 'Z' || ch0 == 'D' || ch0 == 'B' || ch0 == 'P') {
+            spanned = "<span class=\"cmb\">" + spanned + "</span>";
+          }
+          output = output.replace(re, spanned);
         }
         kanaOut(output);
       }

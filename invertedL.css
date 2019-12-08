@@ -2,7 +2,7 @@
 font-family: "KouzanBrushFontOTF";
   src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/KouzanMouhituFontOTF) format("woff2");
 font-family: "UniHentaiKana";
-  src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/UniHentaiKana-Regular) format("woff2");
+  src: url(https://mmurak.github.io/HentaiGanaTransliterator/font/UniHentaiKana-Regular.woff2) format("woff2");
 }
 
 body{
@@ -13,6 +13,12 @@ body{
 }
 
 span.std {font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";}
+
+span.cmb {
+    text-combine-upright: all;
+    -webkit-text-combine: horizontal;
+    -ms-text-combine-horizontal: all;
+}
 
 .controlSection{
   height: 80px;
@@ -61,5 +67,8 @@ main{
   text-align: left;
   margin-left: 5px;
   font-size: 2em;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
 }
 
